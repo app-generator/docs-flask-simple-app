@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">Welcome to Flask App</h1>
+                <p class="card-text">This is a public page that anyone can access.</p>
+                {% if not current_user.is_authenticated %}
+                <p class="card-text">
+                    <a href="{{ url_for('auth.login') }}" class="btn btn-primary">Login</a> or
+                    <a href="{{ url_for('auth.register') }}" class="btn btn-success">Register</a>
+                    to access private content.
+                </p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
