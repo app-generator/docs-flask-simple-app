@@ -1,4 +1,4 @@
-# Flask Authentication Project
+# [Flask](https://app-generator.dev/docs/technologies/flask.html) Authentication Project
 
 A simple Flask application demonstrating authentication, SQLAlchemy ORM, and a REST API. **Links & Resources**:
 
