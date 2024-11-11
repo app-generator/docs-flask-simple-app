@@ -1,6 +1,10 @@
 # Flask Authentication Project
 
-A simple Flask application demonstrating authentication, SQLAlchemy ORM, and a REST API.
+A simple Flask application demonstrating authentication, SQLAlchemy ORM, and a REST API. **Links & Resources**:
+
+- [Getting Started with Flask](https://app-generator.dev/docs/technologies/flask/index.html)
+- [Flask Cheatsheet](https://app-generator.dev/docs/technologies/flask/cheatsheet.html)
+- [Database Migrations in Flask](https://app-generator.dev/docs/technologies/flask/db-migrations.html)
 
 ## Features
 
